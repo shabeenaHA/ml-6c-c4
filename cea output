@@ -1,0 +1,53 @@
+Instances are:
+ [['big' 'red' 'circle']
+ ['small' 'red' 'triangle']
+ ['small' 'red' 'circle']
+ ['big' 'blue' 'circle']
+ ['small' 'blue' 'circle']]
+
+Target Values are:  ['yes' 'yes' 'no' 'yes' 'yes']
+
+Initialization of specific_h and genearal_h
+
+Specific Boundary:  ['big' 'red' 'circle']
+
+Generic Boundary:  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+Instance 1 is  ['big' 'red' 'circle']
+Instance is Positive 
+Specific Bundary after  1 Instance is  ['big' 'red' 'circle']
+Generic Boundary after  1 Instance is  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+
+
+Instance 2 is  ['small' 'red' 'triangle']
+Instance is Positive 
+Specific Bundary after  2 Instance is  ['?' 'red' '?']
+Generic Boundary after  2 Instance is  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+
+
+Instance 3 is  ['small' 'red' 'circle']
+Instance is Negative 
+Specific Bundary after  3 Instance is  ['?' 'red' '?']
+Generic Boundary after  3 Instance is  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+
+
+Instance 4 is  ['big' 'blue' 'circle']
+Instance is Positive 
+Specific Bundary after  4 Instance is  ['?' '?' '?']
+Generic Boundary after  4 Instance is  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+
+
+Instance 5 is  ['small' 'blue' 'circle']
+Instance is Positive 
+Specific Bundary after  5 Instance is  ['?' '?' '?']
+Generic Boundary after  5 Instance is  [['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
+
+
+Final Specific_h: 
+['?' '?' '?']
+Final General_h: 
+[['?', '?', '?'], ['?', '?', '?'], ['?', '?', '?']]
