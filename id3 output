@@ -1,0 +1,47 @@
+The decision tree for the dataset using ID3 algorithm is 
+ supplies
+  high
+   no
+  low
+   weather
+    raining
+     worked
+      yes
+       no
+      no
+       yes
+    cloudy
+     yes
+    sunny
+     yes
+  med
+   weather
+    cloudy
+     no
+    sunny
+     yes
+The test instance :  ['low', 'sunny', 'yes', 'yes']
+The predicted label : yes
+The test instance :  ['high', 'sunny', 'yes', 'no']
+The predicted label : no
+The test instance :  ['med', 'cloudy', 'yes', 'no']
+The predicted label : no
+The test instance :  ['low', 'raining', 'yes', 'no']
+The predicted label : no
+The test instance :  ['low', 'cloudy', 'no', 'yes']
+The predicted label : yes
+The test instance :  ['high', 'sunny', 'no', 'no']
+The predicted label : no
+The test instance :  ['high', 'raining', 'no', 'no']
+The predicted label : no
+The test instance :  ['med', 'cloudy', 'yes', 'no']
+The predicted label : no
+The test instance :  ['low', 'raining', 'yes', 'no']
+The predicted label : no
+The test instance :  ['low', 'raining', 'no', 'yes']
+The predicted label : yes
+The test instance :  ['med', 'sunny', 'no', 'yes']
+The predicted label : yes
+The test instance :  ['high', 'sunny', 'yes', 'no']
+The predicted label : no
+import math
