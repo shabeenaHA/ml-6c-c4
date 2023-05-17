@@ -1,0 +1,30 @@
+ The Training data set are:
+['Red', 'Sports', 'Domestic', 'Yes']
+['Red', 'Sports', 'Domestic', 'No']
+['Red', 'Sports', 'Domestic', 'Yes']
+['Yellow', 'Sports', 'Domestic', 'No']
+['Yellow', 'Sports', 'Imported', 'Yes']
+['Yellow', 'SUV', 'Imported', 'No']
+
+ The Test data set are:
+['Yellow' 'SUV' 'Imported' 'Yes']
+['Yellow' 'SUV' 'Domestic' 'No']
+['Red' 'SUV' 'Imported' 'No']
+['Red' 'Sports' 'Imported' 'Yes']
+
+
+training data size= 6
+test data size= 4
+
+
+target    count    probability
+Yes 	 3 	 0.5
+No 	 3 	 0.5
+
+
+instance prediction  target
+1 	 No 	     Yes
+2 	 No 	     No
+3 	 No 	     No
+4 	 Yes 	     Yes
+accuracy 75.0 %
